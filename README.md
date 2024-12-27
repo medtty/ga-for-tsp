@@ -1,6 +1,6 @@
 # Traveling Salesman Problem using Genetic Algorithm - Morocco Cities
 
-<img src="visu.png" alt="Optimal Route" width="600"/>
+<img src="visu.png" alt="Optimal Route" width="100%"/>
 
 ## Overview
 This project implements a Genetic Algorithm (GA) to solve the Traveling Salesman Problem (TSP) for 20 major cities in Morocco. The algorithm finds an optimal route that visits each city once and returns to the starting point while minimizing the total distance traveled.
@@ -72,13 +72,14 @@ def mutate(path, mutation_rate=0.01):
     return path
 ```
 
-
 ## Output
 The program will:
 1. Display progress updates every 10 generations
 2. Show the best path found
 3. Generate a visualization of the optimal route
 4. Create an additional visualization with city markers using chess piece symbols
+
+<img src="fvisu.png" alt="Optimal Route" width="100%"/>
 
 ## Dataset
 The dataset includes 20 Moroccan cities:
